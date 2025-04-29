@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Relief";
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.enter-date {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 350px;
+  padding: 5px 9px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  height: 40px;
+}
+
+button {
+  display: block;
+  width: 350px;
+  background-color: #525252;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #373737;
+}
+
+.age {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.date-box {
+  position: relative;
+}
+
+.bi-calendar {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  pointer-events: none;
+}
